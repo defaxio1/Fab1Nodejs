@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: Fab1Nodejs
+  host: Fab1Nodejs
+  disk_quota: 1024M
+  services:
+  - Fab1Nodejs-cloudantNoSQLDB
